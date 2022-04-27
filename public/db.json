@@ -1,0 +1,113 @@
+{
+  "tasksList": [
+    {
+      "id": 1,
+      "title": "To Do",
+      "boards": [
+        {
+          "id": 1,
+          "title": "Develop Mobile App",
+          "category": "Bug",
+          "assignTo": "Sarah Conner"
+        },
+        {
+          "id": 2,
+          "title": "Redesign Landing page",
+          "category": "Task",
+          "assignTo": "Ted Erricson"
+        },
+        {
+          "id": 3,
+          "title": "New design for Landing",
+          "category": "Design",
+          "assignTo": "John Franklin"
+        },
+        {
+          "id": 4,
+          "title": "API Improvement",
+          "category": "Story",
+          "assignTo": "John Franklin"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "In Progress",
+      "boards": [
+        {
+          "id": 1,
+          "title": "Create a new Landing UI",
+          "category": "Story",
+          "assignTo": "Sarah Conner"
+        },
+        {
+          "id": 2,
+          "title": "Brand Logo design",
+          "category": "Bug",
+          "assignTo": "Sarah Conner"
+        },
+        {
+          "id": 3,
+          "title": "Dashboard UI",
+          "category": "Design",
+          "assignTo": "Sarah Conner"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "PR Review",
+      "boards": [
+        {
+          "id": 1,
+          "title": "Redesign Landing page",
+          "category": "Task",
+          "assignTo": "Ted Erricson"
+        },
+        {
+          "id": 2,
+          "title": "Blog Template",
+          "category": "Design",
+          "assignTo": "John Franklin"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "QA Review",
+      "boards": [
+        {
+          "id": 1,
+          "title": "Create a new Landing UI",
+          "category": "Story",
+          "assignTo": "Sarah Conner"
+        },
+        {
+          "id": 2,
+          "title": "Brand Logo design",
+          "category": "Bug",
+          "status": "Waiting",
+          "assignTo": "Ted Erricson"
+        },
+        {
+          "id": 3,
+          "title": "Dashboard UI",
+          "category": "Design",
+          "assignTo": "John Franklin"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Done",
+      "boards": [
+        {
+          "id": 1,
+          "title": "New Landing UI",
+          "category": "Design",
+          "assignTo": "Sarah Conner"
+        }
+      ]
+    }
+  ]
+}

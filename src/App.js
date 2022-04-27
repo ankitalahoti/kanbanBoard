@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Header } from "./components/Header";
+import TasksPage from "./components/TasksPage";
+import { CssBaseline } from "@mui/material";
+import { makeStyles } from "@mui/styles";
 
-function App() {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+  },
+  content: {
+    flex: "1 1 auto",
+    padding: "64px 15px 15px",
+    width: "100%",
+    height: "100vh",
+    overflow: "hidden",
+  },
+}));
+
+const App = () => {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={classes.root}>
+        <CssBaseline />
+        <Header />
+        <main className={classes.content}>
+          <TasksPage />
+        </main>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
